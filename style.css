@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(145, 138, 138);
+    background-image: url(./pexels-negative-space-169573.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    
+}
+.me{
+    color: rgb(20, 20, 20);
+}
+header{
+    box-shadow: 1rem 2rem 3rem 2rem rgba(0,0,0,1);
+     /* border: 2px solid red; */
+     margin: 10px;
+}
+h1{
+    margin: 0 20%;
+    font-size: 3rem;
+    color: rgb(131, 129, 129);
+}
+p{
+    margin: 0 20%;
+    font-size: 1.5rem;
+}
+hr{
+    margin-top: 2rem;
+}
+
+.container{
+  width: 60%;
+  
+  display: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  /* border: 2px solid red; */
+  margin-top: 20px;
+  position: relative;
+  height: 65vh;
+  background: rgba(0,0,0,1);
+  /* top: 400px; */
+}
+
+
+.inner{
+    display: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    /* display: colume; */
+    /* justify-content: center ; */
+    /* align-items: center; */
+    margin: auto;
+    width: 60%;
+}
+.white-space{
+    background-color: aliceblue;
+    height: 100px;
+
+}
+
+.profile img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    /* z-index: 3; */
+    position: absolute;
+    top: 50px;
+    margin: 0 40%;
+    border: 2px solid white;
+}
+
+.content{
+    margin: 50px 30px;
+    /* display: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.rep{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+
+
+.request{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+input{
+    width: 30rem;
+    height: 3rem;
+    border-radius: 2rem;
+    margin-left: 8rem;
+    border: none;
+    
+}
+
+button{
+    width: 5rem;
+    height: 3rem;
+    border-radius: 2rem;
+    border: none;
+    font-size: 1rem;
+}
+
+input::placeholder{
+    font-size: 1.5rem;
+}
+.error_message{
+    display: none;
+}
